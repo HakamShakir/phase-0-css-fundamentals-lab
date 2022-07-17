@@ -3,3 +3,47 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  color: red;
+}
+
+#featured-property{
+  position: relative;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+header > nav > a{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: bisque;
+}
+
+#featured-property p{
+
+  width: 800px;
+  display: fixed;
+margin-left: auto;
+margin-right: auto;
+}
+
+header {
+  text-align: center;
+}
+
+#details {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+#details > div {
+ text-align: center;
+  width: 25%;
+}
